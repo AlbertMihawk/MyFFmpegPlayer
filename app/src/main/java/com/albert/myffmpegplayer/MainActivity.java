@@ -39,11 +39,12 @@ public class MainActivity extends Activity implements View.OnClickListener {
         surfaceView = (SurfaceView) findViewById(R.id.surface_view);
 //        seekBar = (SeekBar) findViewById(R.id.seek_bar);
         button = (Button) findViewById(R.id.btn_video_play);
-        player = new FFmpegVideoPlayer();
-        player.setSurfaceView(surfaceView);
+        button.setOnClickListener(this);
+
+        button = (Button) findViewById(R.id.btn_audio_play);
         button.setOnClickListener(this);
         TextView textView = (TextView) findViewById(R.id.text);
-        textView.setText(stringFromJNI());
+//        textView.setText(stringFromJNI());
 
 
     }
@@ -54,7 +55,9 @@ public class MainActivity extends Activity implements View.OnClickListener {
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.btn_video_play:
-                File file = new File(Environment.getExternalStorageDirectory(), "input.mp4");
+                player = new FFmpegVideoPlayer();
+                player.setSurfaceView(surfaceView);
+                File file = new File("/sdcard/input.mp4");
                 if (file.exists()) {
                     player.start(file.getAbsolutePath());
                 } else {
@@ -63,7 +66,9 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 break;
             case R.id.btn_audio_play:
                 FFmpegAudioPlayer player = new FFmpegAudioPlayer();
-//                player.sound();
+                String input = new File("/sdcard/input.mp3").getAbsolutePath();
+                String output = new File("/sdcard/output.pcm").getAbsolutePath();
+                player.sound(input, output);
                 break;
         }
     }
