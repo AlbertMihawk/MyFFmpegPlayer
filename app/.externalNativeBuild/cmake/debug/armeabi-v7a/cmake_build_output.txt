@@ -1,0 +1,6 @@
+CMake Warning at /Users/xiaoxu/Documents/code_develop/MyFFmpegPlayer/app/src/main/cpp/CMakeLists.txt:16 (message):
+  DIR:
+  /Users/xiaoxu/Documents/code_develop/MyFFmpegPlayer/app/src/main/cpp/../../../libs/armeabi-v7a
+
+
+Configuring done

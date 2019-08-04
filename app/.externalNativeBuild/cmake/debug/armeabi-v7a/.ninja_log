@@ -1,0 +1,13 @@
+# ninja log v5
+2	1601	1564925782	CMakeFiles/myffmpegplayer.dir/native-lib.cpp.o	6d85bdb24d60839b
+1602	6810	1564925786	/Users/xiaoxu/Documents/code_develop/MyFFmpegPlayer/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libmyffmpegplayer.so	30948c61e061523b
+2	1361	1564926065	CMakeFiles/myffmpegplayer.dir/native-lib.cpp.o	6d85bdb24d60839b
+1361	8686	1564926071	/Users/xiaoxu/Documents/code_develop/MyFFmpegPlayer/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libmyffmpegplayer.so	30948c61e061523b
+2	1654	1564934212	CMakeFiles/myffmpegplayer.dir/native-lib.cpp.o	6d85bdb24d60839b
+1655	5701	1564934215	/Users/xiaoxu/Documents/code_develop/MyFFmpegPlayer/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libmyffmpegplayer.so	30948c61e061523b
+1	1157	1564935156	CMakeFiles/myffmpegplayer.dir/native-lib.cpp.o	6d85bdb24d60839b
+1157	7524	1564935161	/Users/xiaoxu/Documents/code_develop/MyFFmpegPlayer/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libmyffmpegplayer.so	30948c61e061523b
+1	810	1564935182	CMakeFiles/myffmpegplayer.dir/native-lib.cpp.o	6d85bdb24d60839b
+810	3368	1564935183	/Users/xiaoxu/Documents/code_develop/MyFFmpegPlayer/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libmyffmpegplayer.so	30948c61e061523b
+3	765	1564935236	CMakeFiles/myffmpegplayer.dir/native-lib.cpp.o	6d85bdb24d60839b
+765	5505	1564935239	/Users/xiaoxu/Documents/code_develop/MyFFmpegPlayer/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libmyffmpegplayer.so	30948c61e061523b

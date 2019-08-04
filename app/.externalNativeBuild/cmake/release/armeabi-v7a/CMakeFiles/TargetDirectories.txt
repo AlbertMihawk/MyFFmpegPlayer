@@ -1,0 +1,3 @@
+/Users/xiaoxu/Documents/code_develop/MyFFmpegPlayer/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/Users/xiaoxu/Documents/code_develop/MyFFmpegPlayer/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/xiaoxu/Documents/code_develop/MyFFmpegPlayer/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/myffmpegplayer.dir
