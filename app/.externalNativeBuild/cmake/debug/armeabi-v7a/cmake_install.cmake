@@ -1,4 +1,4 @@
-# Install script for directory: /Users/xiaoxu/Documents/code_develop/MyFFmpegPlayer/app/src/main/cpp
+# Install script for directory: /Users/xiaoxu/.Trash/MyFFmpegPlayer/app/src/main/cpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/xiaoxu/Documents/code_develop/MyFFmpegPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/xiaoxu/.Trash/MyFFmpegPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

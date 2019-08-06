@@ -2,17 +2,17 @@
   "buildFiles": [
     "/Users/xiaoxu/Library/Android/sdk/ndk-bundle/build/cmake/platforms.cmake",
     "/Users/xiaoxu/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake",
-    "/Users/xiaoxu/Documents/code_develop/MyFFmpegPlayer/app/src/main/cpp/CMakeLists.txt"
+    "/Users/xiaoxu/.Trash/MyFFmpegPlayer/app/src/main/cpp/CMakeLists.txt"
   ],
   "cleanCommands": [
-    "/Users/xiaoxu/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build \"/Users/xiaoxu/Documents/code_develop/MyFFmpegPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a\" --target clean"
+    "/Users/xiaoxu/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build \"/Users/xiaoxu/.Trash/MyFFmpegPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a\" --target clean"
   ],
   "libraries": {
     "myffmpegplayer-Debug-armeabi-v7a": {
       "artifactName": "myffmpegplayer",
-      "buildCommand": "/Users/xiaoxu/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build \"/Users/xiaoxu/Documents/code_develop/MyFFmpegPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a\" --target myffmpegplayer",
+      "buildCommand": "/Users/xiaoxu/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build \"/Users/xiaoxu/.Trash/MyFFmpegPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a\" --target myffmpegplayer",
       "abi": "armeabi-v7a",
-      "output": "/Users/xiaoxu/Documents/code_develop/MyFFmpegPlayer/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libmyffmpegplayer.so"
+      "output": "/Users/xiaoxu/.Trash/MyFFmpegPlayer/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libmyffmpegplayer.so"
     }
   }
 }
