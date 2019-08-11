@@ -1,3 +1,5 @@
 # ninja log v5
-0	936	1565018099	CMakeFiles/myffmpegplayer.dir/native-lib.cpp.o	8c219f4724d3766e
-937	8632	1565018104	/Users/xiaoxu/.Trash/MyFFmpegPlayer/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libmyffmpegplayer.so	4a68c492d32e6fc2
+0	1150	1565190426	CMakeFiles/myffmpegplayer.dir/native-lib.cpp.o	6d85bdb24d60839b
+1151	7605	1565190431	/Users/xiaoxu/Documents/code_develop/MyFFmpegPlayer/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libmyffmpegplayer.so	30948c61e061523b
+1	965	1565190684	CMakeFiles/myffmpegplayer.dir/native-lib.cpp.o	6d85bdb24d60839b
+965	2835	1565190685	/Users/xiaoxu/Documents/code_develop/MyFFmpegPlayer/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libmyffmpegplayer.so	30948c61e061523b

@@ -10,9 +10,9 @@ Detecting CXX compiler ABI info
 Detecting CXX compiler ABI info - done
 Detecting CXX compile features
 Detecting CXX compile features - done
-CMake Warning at /Users/xiaoxu/.Trash/MyFFmpegPlayer/app/src/main/cpp/CMakeLists.txt:16 (message):
+CMake Warning at /Users/xiaoxu/Documents/code_develop/MyFFmpegPlayer/app/src/main/cpp/CMakeLists.txt:16 (message):
   DIR:
-  /Users/xiaoxu/.Trash/MyFFmpegPlayer/app/src/main/cpp/../../../libs/armeabi-v7a
+  /Users/xiaoxu/Documents/code_develop/MyFFmpegPlayer/app/src/main/cpp/../../../libs/armeabi-v7a
 
 
 Configuring done

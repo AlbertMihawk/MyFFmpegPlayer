@@ -281,17 +281,22 @@ Java_com_albert_myffmpegplayer_FFmpegAudioPlayer_sound(JNIEnv *env, jobject inst
         swr_convert(swrContext, &out_buffer, 2 * 44100, (const uint8_t **) frame->data,
                     frame->nb_samples);
 
-        //out_buffer->File
-        av_samples_get_buffer_size()
-        27:32
-        //对齐
+        //计算输出的通道
+        int out_channel_nb = av_get_channel_layout_nb_channels((out_ch_layout));
 
+        //out_buffer->File 缓存区大小
+        int out_buffer_size = av_samples_get_buffer_size(NULL, 2, frame->nb_samples, out_sample, 1);
 
-
+        //最小单位 1字节
+        fwrite(out_buffer, 1, out_buffer_size, fp_pcm);
 
     }
-
+    fclose(fp_pcm);
+    av_free(out_buffer);
+    swr_free(&swrContext);
+    avcodec_close(codecCtx);
     avformat_close_input(&fmtCtx);
+
     env->ReleaseStringUTFChars(input_, input);
     env->ReleaseStringUTFChars(output_, output);
 }
